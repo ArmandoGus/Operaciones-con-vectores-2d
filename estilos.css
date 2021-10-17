@@ -1,0 +1,251 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: url(f4.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: Arial;
+}
+
+header{
+	background:lightseagreen;
+	border: 1px solid black;
+	box-shadow: 0px 0px 20px black;
+	height: 100px;
+	width: 1250px;
+	margin: 20px;
+	text-align: center;
+	line-height: 100px;
+	color: black;
+	font-size: 3em;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+p{
+	font-size: 30px;
+	border-radius: 10px;
+	border: 1px solid black;
+	background: #555555;
+	height: 50px;
+	width: 900px;
+	margin: 5px;
+	text-align: center;
+	line-height: 50px;
+	color: white;	
+	box-shadow: 0px 0px 20px black;
+	/*border-bottom: 3px dashed black;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contenedor{
+	width: 490px;
+	height: 60px;
+	margin: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background: blueviolet;*/
+	position: relative;
+}
+
+#contenedorCanvas{
+	width: 1440px;
+	height: 1440px;
+	background: white;
+	box-shadow: 0px 0px 20px black;
+	margin: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cajanew{
+	width: 250px;
+	height: 150px;
+	background: lightseagreen;
+	margin: 30px;
+	box-shadow: 0px 0px 20px black;
+    position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+#ContVec{
+    background: lightseagreen;
+    width: 190px;
+    height: 120px;
+    /*text-align: center;*/
+	font-size: 20px;
+    position: absolute;
+    left: 58px;
+    top: 16px;
+}
+
+.uno{
+    width: 30px;
+	height: 30px;
+	background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 22px;
+    top: 12px;
+}
+
+.dos{
+    width: 30px;
+	height: 30px;
+	background: blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    left: 22px;
+    top: 59px;
+}
+
+.tres{
+    width: 30px;
+	height: 30px;
+	background:green;
+    border-radius: 50%;
+    position: absolute;
+    left: 22px;
+    top: 105px;
+}
+
+.formularios{
+	width: 90%;
+	max-width: 500px;
+
+	margin: 25px;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding: 20px;
+	box-shadow: 0px 0px 20px black;
+	background: lightseagreen;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+.form-group{
+	width: 100%;
+	margin-top: 20px;
+	font-size: 20px;	
+}
+
+.form-group input{
+	width: 100%;
+	margin-top: 5px;
+	font-size: 18px;
+	border: 1px solid rgb(128,128,128,0.199);
+	margin-top: 5px;	
+}
+
+#verif{
+	background-color: #555555;
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+	border-radius: 10px;
+	border:none;
+	position: absolute;
+    left: 0px;
+    top: 5px;
+}
+
+#verif:hover{
+	background-color: #0f8513; 
+    color: white;
+	cursor: pointer;
+}
+
+#bDos{
+	background-color: #555555;
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+
+	border-radius: 10px;
+	border:none;
+	position: absolute;
+    left: 280px;
+    top: 5px;
+}
+
+#bDos:hover{
+	background-color: #d30909; 
+    color: white;
+	cursor: pointer;
+}
+
+/*Esta sección sirve para quitar el subir o bajar el valor de la casilla*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+	-webkit-appearance: none;
+}
+
+#verif[disabled=disabled], #verif:disabled,
+#vozbutton[disabled=disabled], #vozbutton:disabled {	
+    cursor: not-allowed;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    pointer-events:none;
+ 
+}
+
+#contenedorvoz{
+	width: 210px;
+	height: 60px;
+	margin: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background: blueviolet;*/
+	position: relative;
+}
+
+#vozbutton{
+	background-color: #555555;
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+	border-radius: 10px;
+	border:none;
+	position: absolute;
+    left: 0px;
+    top: 5px;
+}
+
+#vozbutton:hover{
+	background-color: #690a72; 
+    color: white;
+	cursor: pointer;
+}
+
+/**/

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>OPERACIONES CON VECTORES</title>
+		<link rel="stylesheet" href="estilos.css" />
+	</head>
+	
+	<body>
+	
+		<script src="operaciones.js"></script>
+		
+		<div id="contenedorvoz">
+			<button id="vozbutton">Llenado por voz</button>
+		</div>
+		
+		<script src="recoVoz.js"></script>
+
+		<div class="formularios">
+			<form class="form-group" id="s" name="s" style="display:none">
+				<label>Resultado para la suma en x:</label>
+				<input type="number" name="nx" id="nx" value="" />
+				<label>Resultado para la suma en y:</label>
+				<input type="number" name="ny" id="ny" value="" />
+			</form>
+	
+			<form class="form-group" id="r" name="r" style="display:none">
+				<label>Resultado para la resta en x:</label>
+				<input type="number" name="mx" id="mx" value="" />
+	
+				<label>Resultado para la resta en y:</label>
+				<input type="number" name="my" id="my" value="" />
+			</form>
+	
+			<form class="form-group" id="m" style="display:none">
+				<label >Resultado para la multuplicación en z:</label>
+				<input type="number" name="np" id="np" value="" />
+			</form>
+		</div>
+
+		<script src="OcultarCosas.js"></script>
+
+		<div id="contenedor">
+			<button id="verif" onclick="return VerificarRespuesta();">Verificar respuesta</button>
+
+			<button id="bDos" onclick="location.reload()">Reiniciar página</button>
+		</div>
+		
+		<div id="cajanew">
+			<div id="ContVec">
+				
+			</div>
+			
+			<div class="uno"></div>
+			<div class="dos"></div>
+			<div class="tres"></div>
+	
+		</div>
+		
+		<div id="contenedorCanvas">
+			<canvas id="myCanvas" width="1440" height="1440" style="border:1px solid #d3d3d3;">
+				Your browser does not support the canvas element.
+			</canvas>
+		</div>
+
+		<script src="CanvasGrafico.js"></script>
+
+	</body>
+	
+</html>
